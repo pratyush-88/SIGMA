@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        div{
+            color: yellow;
+            background-color: red;
+        }
+        /*class selector*/
+        .red{
+            background-color: greenyellow;
+            color: blue;
+        }
+       /* id selector*/
+        #green{
+            color: cyan;
+            background-color: black;
+        }
+       /* child selector*/
+       div > p{
+        color: black;
+        background-color: maroon;
+       }
+    </style>
+</head>
+<body>
+    <div class="red">
+        My love Nikkyyy
+    </div>
+    <div>
+        i am a another div
+    </div>
+    <div id="green">
+        Hello I am a Good Boy.
+        <p>Hey i am para</p>
+    </div>
+</body>
+</html>
